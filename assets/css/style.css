@@ -68,6 +68,7 @@ nav {
     box-shadow: 0 2px 2px #3a3a3a;
     display: none;
     top: 100%;
+    
 }
 
 /* Nav toggle */
@@ -81,6 +82,7 @@ nav {
 
 .nav-toggle-label {
     font-size: 2em;
+    margin-right: 100px;
 }
 
 /* Main content*/
@@ -102,7 +104,8 @@ footer {
         position: relative;
         box-shadow: none;
         width: fit-content;
-        padding-right: 1rem;
+        padding-right: 2rem;
+
     }
 
     #menu {
@@ -114,5 +117,18 @@ footer {
     .nav-toggle-label {
         display: none;
     }
+    #logo {
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0 0,5rem;
+    }
+
+    /*Main content*/
+    main {
+       /*Push content down to accommodate larger header*/ 
+       margin-top: 150px;
+    }
+    
+
 }
 
